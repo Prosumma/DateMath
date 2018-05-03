@@ -6,7 +6,7 @@
 //  Copyright © 2018 Gregory Higley. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for DateMath.
 FOUNDATION_EXPORT double DateMathVersionNumber;

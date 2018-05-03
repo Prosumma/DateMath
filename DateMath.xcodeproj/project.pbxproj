@@ -10,6 +10,7 @@
 		F3DAD8D8209AACB90044C75C /* DateMath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3DAD8CE209AACB80044C75C /* DateMath.framework */; };
 		F3DAD8DD209AACB90044C75C /* DateMathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DAD8DC209AACB90044C75C /* DateMathTests.swift */; };
 		F3DAD8DF209AACB90044C75C /* DateMath.h in Headers */ = {isa = PBXBuildFile; fileRef = F3DAD8D1209AACB80044C75C /* DateMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3F76FEA209AAFB8007E9366 /* DateMath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3F76FE1209AAFB8007E9366 /* DateMath.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -18,6 +19,13 @@
 			containerPortal = F3DAD8C5209AACB80044C75C /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F3DAD8CD209AACB80044C75C;
+			remoteInfo = DateMath;
+		};
+		F3F76FEB209AAFB8007E9366 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3DAD8C5209AACB80044C75C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3F76FE0209AAFB8007E9366;
 			remoteInfo = DateMath;
 		};
 /* End PBXContainerItemProxy section */
@@ -29,6 +37,8 @@
 		F3DAD8D7209AACB90044C75C /* DateMathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DateMathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3DAD8DC209AACB90044C75C /* DateMathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateMathTests.swift; sourceTree = "<group>"; };
 		F3DAD8DE209AACB90044C75C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3F76FE1209AAFB8007E9366 /* DateMath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DateMath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3F76FE9209AAFB8007E9366 /* DateMathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DateMathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +54,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3DAD8D8209AACB90044C75C /* DateMath.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F76FDD209AAFB8007E9366 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F76FE6209AAFB8007E9366 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F76FEA209AAFB8007E9366 /* DateMath.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +89,8 @@
 			children = (
 				F3DAD8CE209AACB80044C75C /* DateMath.framework */,
 				F3DAD8D7209AACB90044C75C /* DateMathTests.xctest */,
+				F3F76FE1209AAFB8007E9366 /* DateMath.framework */,
+				F3F76FE9209AAFB8007E9366 /* DateMathTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,6 +121,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3DAD8DF209AACB90044C75C /* DateMath.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F76FDE209AAFB8007E9366 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +170,42 @@
 			productReference = F3DAD8D7209AACB90044C75C /* DateMathTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		F3F76FE0209AAFB8007E9366 /* DateMath iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3F76FF6209AAFB8007E9366 /* Build configuration list for PBXNativeTarget "DateMath iOS" */;
+			buildPhases = (
+				F3F76FDC209AAFB8007E9366 /* Sources */,
+				F3F76FDD209AAFB8007E9366 /* Frameworks */,
+				F3F76FDE209AAFB8007E9366 /* Headers */,
+				F3F76FDF209AAFB8007E9366 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DateMath iOS";
+			productName = DateMath;
+			productReference = F3F76FE1209AAFB8007E9366 /* DateMath.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F3F76FE8209AAFB8007E9366 /* DateMathTests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3F76FF7209AAFB8007E9366 /* Build configuration list for PBXNativeTarget "DateMathTests iOS" */;
+			buildPhases = (
+				F3F76FE5209AAFB8007E9366 /* Sources */,
+				F3F76FE6209AAFB8007E9366 /* Frameworks */,
+				F3F76FE7209AAFB8007E9366 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3F76FEC209AAFB8007E9366 /* PBXTargetDependency */,
+			);
+			name = "DateMathTests iOS";
+			productName = DateMathTests;
+			productReference = F3F76FE9209AAFB8007E9366 /* DateMathTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -150,6 +220,12 @@
 						CreatedOnToolsVersion = 9.3;
 					};
 					F3DAD8D6209AACB90044C75C = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					F3F76FE0209AAFB8007E9366 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					F3F76FE8209AAFB8007E9366 = {
 						CreatedOnToolsVersion = 9.3;
 					};
 				};
@@ -168,6 +244,8 @@
 			targets = (
 				F3DAD8CD209AACB80044C75C /* DateMath macOS */,
 				F3DAD8D6209AACB90044C75C /* DateMathTests macOS */,
+				F3F76FE0209AAFB8007E9366 /* DateMath iOS */,
+				F3F76FE8209AAFB8007E9366 /* DateMathTests iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -181,6 +259,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F3DAD8D5209AACB90044C75C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F76FDF209AAFB8007E9366 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F76FE7209AAFB8007E9366 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -205,6 +297,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F3F76FDC209AAFB8007E9366 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F76FE5209AAFB8007E9366 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -212,6 +318,11 @@
 			isa = PBXTargetDependency;
 			target = F3DAD8CD209AACB80044C75C /* DateMath macOS */;
 			targetProxy = F3DAD8D9209AACB90044C75C /* PBXContainerItemProxy */;
+		};
+		F3F76FEC209AAFB8007E9366 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3F76FE0209AAFB8007E9366 /* DateMath iOS */;
+			targetProxy = F3F76FEB209AAFB8007E9366 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -419,6 +530,100 @@
 			};
 			name = Release;
 		};
+		F3F76FF2209AAFB8007E9366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DateMath/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prosumma.DateMath;
+				PRODUCT_NAME = DateMath;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3F76FF3209AAFB8007E9366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DateMath/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prosumma.DateMath;
+				PRODUCT_NAME = DateMath;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3F76FF4209AAFB8007E9366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DateMathTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prosumma.DateMathTests;
+				PRODUCT_NAME = DateMathTests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3F76FF5209AAFB8007E9366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DateMathTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prosumma.DateMathTests;
+				PRODUCT_NAME = DateMathTests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -445,6 +650,24 @@
 			buildConfigurations = (
 				F3DAD8E6209AACB90044C75C /* Debug */,
 				F3DAD8E7209AACB90044C75C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3F76FF6209AAFB8007E9366 /* Build configuration list for PBXNativeTarget "DateMath iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F76FF2209AAFB8007E9366 /* Debug */,
+				F3F76FF3209AAFB8007E9366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3F76FF7209AAFB8007E9366 /* Build configuration list for PBXNativeTarget "DateMathTests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F76FF4209AAFB8007E9366 /* Debug */,
+				F3F76FF5209AAFB8007E9366 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
