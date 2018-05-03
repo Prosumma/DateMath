@@ -16,6 +16,8 @@ private func add(to date: Date, expression: Expression) -> (Date, TimeZone) {
         var calendar = Calendar(identifier: .gregorian)
         calendar.timeZone = timeZone
         return (calendar.date(byAdding: component, value: value, to: date)!, timeZone)
+    case let .add(.tz, .add(.tz(timeZone), e2)):
+        return add(to: date, expression: .tz(timeZone) + e2)
     case let .add(.tz(timeZone), .add(e1, e2)):
         let tz = Expression.tz(timeZone)
         return add(to: date, expression: (tz + e1) + (tz + e2))

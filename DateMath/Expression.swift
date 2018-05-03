@@ -8,6 +8,14 @@
 
 import Foundation
 
+precedencegroup TimeZonePrecedence {
+    associativity: right
+    lowerThan: MultiplicationPrecedence
+    higherThan: AdditionPrecedence
+}
+
+infix operator ⁝: TimeZonePrecedence
+
 public indirect enum Expression {
     case unit(Calendar.Component, Int)
     case add(Expression, Expression)
@@ -34,12 +42,8 @@ public func +(lhs: Expression, rhs: Expression) -> Expression {
     return .add(lhs, rhs)
 }
 
-public func +(lhs: TimeZone, rhs: Expression) -> Expression {
-    return .add(.tz(lhs), rhs)
-}
-
-public func +(lhs: Expression, rhs: TimeZone) -> Expression {
-    return .add(lhs, .tz(rhs))
+public func ⁝(lhs: TimeZone, rhs: Expression) -> Expression {
+    return .tz(lhs) + rhs
 }
 
 public prefix func -(e: Expression) -> Expression {
