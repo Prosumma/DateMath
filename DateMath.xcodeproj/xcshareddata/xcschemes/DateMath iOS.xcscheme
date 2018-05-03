@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F3F76FE0209AAFB8007E9366"
-               BuildableName = "DateMath_iOS.framework"
+               BuildableName = "DateMath.framework"
                BlueprintName = "DateMath iOS"
                ReferencedContainer = "container:DateMath.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F3F76FE8209AAFB8007E9366"
-               BuildableName = "DateMathTests iOS.xctest"
+               BuildableName = "DateMathTests.xctest"
                BlueprintName = "DateMathTests iOS"
                ReferencedContainer = "container:DateMath.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F3F76FE0209AAFB8007E9366"
-            BuildableName = "DateMath_iOS.framework"
+            BuildableName = "DateMath.framework"
             BlueprintName = "DateMath iOS"
             ReferencedContainer = "container:DateMath.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F3F76FE0209AAFB8007E9366"
-            BuildableName = "DateMath_iOS.framework"
+            BuildableName = "DateMath.framework"
             BlueprintName = "DateMath iOS"
             ReferencedContainer = "container:DateMath.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F3F76FE0209AAFB8007E9366"
-            BuildableName = "DateMath_iOS.framework"
+            BuildableName = "DateMath.framework"
             BlueprintName = "DateMath iOS"
             ReferencedContainer = "container:DateMath.xcodeproj">
          </BuildableReference>

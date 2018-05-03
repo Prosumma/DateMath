@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F3F77018209AB1EB007E9366"
-               BuildableName = "DateMath_watchOS.framework"
+               BuildableName = "DateMath.framework"
                BlueprintName = "DateMath watchOS"
                ReferencedContainer = "container:DateMath.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F3F77018209AB1EB007E9366"
-            BuildableName = "DateMath_watchOS.framework"
+            BuildableName = "DateMath.framework"
             BlueprintName = "DateMath watchOS"
             ReferencedContainer = "container:DateMath.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F3F77018209AB1EB007E9366"
-            BuildableName = "DateMath_watchOS.framework"
+            BuildableName = "DateMath.framework"
             BlueprintName = "DateMath watchOS"
             ReferencedContainer = "container:DateMath.xcodeproj">
          </BuildableReference>
