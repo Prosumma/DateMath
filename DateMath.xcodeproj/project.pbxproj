@@ -11,6 +11,15 @@
 		F3DAD8DD209AACB90044C75C /* DateMathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DAD8DC209AACB90044C75C /* DateMathTests.swift */; };
 		F3DAD8DF209AACB90044C75C /* DateMath.h in Headers */ = {isa = PBXBuildFile; fileRef = F3DAD8D1209AACB80044C75C /* DateMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F3F76FEA209AAFB8007E9366 /* DateMath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3F76FE1209AAFB8007E9366 /* DateMath.framework */; };
+		F3F77006209AB021007E9366 /* DateMath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3F76FFD209AB020007E9366 /* DateMath.framework */; };
+		F3F77022209AB317007E9366 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F77021209AB317007E9366 /* Expression.swift */; };
+		F3F77023209AB317007E9366 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F77021209AB317007E9366 /* Expression.swift */; };
+		F3F77024209AB317007E9366 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F77021209AB317007E9366 /* Expression.swift */; };
+		F3F77025209AB317007E9366 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F77021209AB317007E9366 /* Expression.swift */; };
+		F3F77027209ABE6F007E9366 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F77026209ABE6F007E9366 /* Date.swift */; };
+		F3F77028209ABE6F007E9366 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F77026209ABE6F007E9366 /* Date.swift */; };
+		F3F77029209ABE6F007E9366 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F77026209ABE6F007E9366 /* Date.swift */; };
+		F3F7702A209ABE6F007E9366 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F77026209ABE6F007E9366 /* Date.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +37,13 @@
 			remoteGlobalIDString = F3F76FE0209AAFB8007E9366;
 			remoteInfo = DateMath;
 		};
+		F3F77007209AB021007E9366 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3DAD8C5209AACB80044C75C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3F76FFC209AB020007E9366;
+			remoteInfo = DateMath;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +55,11 @@
 		F3DAD8DE209AACB90044C75C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3F76FE1209AAFB8007E9366 /* DateMath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DateMath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3F76FE9209AAFB8007E9366 /* DateMathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DateMathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3F76FFD209AB020007E9366 /* DateMath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DateMath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3F77005209AB021007E9366 /* DateMathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DateMathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3F77019209AB1EB007E9366 /* DateMath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DateMath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3F77021209AB317007E9366 /* Expression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expression.swift; sourceTree = "<group>"; };
+		F3F77026209ABE6F007E9366 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +93,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F3F76FF9209AB020007E9366 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F77002209AB021007E9366 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F77006209AB021007E9366 /* DateMath.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F77015209AB1EB007E9366 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -91,6 +134,9 @@
 				F3DAD8D7209AACB90044C75C /* DateMathTests.xctest */,
 				F3F76FE1209AAFB8007E9366 /* DateMath.framework */,
 				F3F76FE9209AAFB8007E9366 /* DateMathTests.xctest */,
+				F3F76FFD209AB020007E9366 /* DateMath.framework */,
+				F3F77005209AB021007E9366 /* DateMathTests.xctest */,
+				F3F77019209AB1EB007E9366 /* DateMath.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,6 +146,8 @@
 			children = (
 				F3DAD8D1209AACB80044C75C /* DateMath.h */,
 				F3DAD8D2209AACB80044C75C /* Info.plist */,
+				F3F77026209ABE6F007E9366 /* Date.swift */,
+				F3F77021209AB317007E9366 /* Expression.swift */,
 			);
 			path = DateMath;
 			sourceTree = "<group>";
@@ -125,6 +173,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F3F76FDE209AAFB8007E9366 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F76FFA209AB020007E9366 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F77016209AB1EB007E9366 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -206,6 +268,60 @@
 			productReference = F3F76FE9209AAFB8007E9366 /* DateMathTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		F3F76FFC209AB020007E9366 /* DateMath tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3F7700E209AB021007E9366 /* Build configuration list for PBXNativeTarget "DateMath tvOS" */;
+			buildPhases = (
+				F3F76FF8209AB020007E9366 /* Sources */,
+				F3F76FF9209AB020007E9366 /* Frameworks */,
+				F3F76FFA209AB020007E9366 /* Headers */,
+				F3F76FFB209AB020007E9366 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DateMath tvOS";
+			productName = DateMath;
+			productReference = F3F76FFD209AB020007E9366 /* DateMath.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F3F77004209AB021007E9366 /* DateMathTests tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3F77011209AB021007E9366 /* Build configuration list for PBXNativeTarget "DateMathTests tvOS" */;
+			buildPhases = (
+				F3F77001209AB021007E9366 /* Sources */,
+				F3F77002209AB021007E9366 /* Frameworks */,
+				F3F77003209AB021007E9366 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3F77008209AB021007E9366 /* PBXTargetDependency */,
+			);
+			name = "DateMathTests tvOS";
+			productName = DateMathTests;
+			productReference = F3F77005209AB021007E9366 /* DateMathTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3F77018209AB1EB007E9366 /* DateMath watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3F7701E209AB1EB007E9366 /* Build configuration list for PBXNativeTarget "DateMath watchOS" */;
+			buildPhases = (
+				F3F77014209AB1EB007E9366 /* Sources */,
+				F3F77015209AB1EB007E9366 /* Frameworks */,
+				F3F77016209AB1EB007E9366 /* Headers */,
+				F3F77017209AB1EB007E9366 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DateMath watchOS";
+			productName = DateMath;
+			productReference = F3F77019209AB1EB007E9366 /* DateMath.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -218,15 +334,28 @@
 				TargetAttributes = {
 					F3DAD8CD209AACB80044C75C = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 					F3DAD8D6209AACB90044C75C = {
 						CreatedOnToolsVersion = 9.3;
 					};
 					F3F76FE0209AAFB8007E9366 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 					F3F76FE8209AAFB8007E9366 = {
 						CreatedOnToolsVersion = 9.3;
+					};
+					F3F76FFC209AB020007E9366 = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
+					};
+					F3F77004209AB021007E9366 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					F3F77018209AB1EB007E9366 = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 				};
 			};
@@ -246,6 +375,9 @@
 				F3DAD8D6209AACB90044C75C /* DateMathTests macOS */,
 				F3F76FE0209AAFB8007E9366 /* DateMath iOS */,
 				F3F76FE8209AAFB8007E9366 /* DateMathTests iOS */,
+				F3F76FFC209AB020007E9366 /* DateMath tvOS */,
+				F3F77004209AB021007E9366 /* DateMathTests tvOS */,
+				F3F77018209AB1EB007E9366 /* DateMath watchOS */,
 			);
 		};
 /* End PBXProject section */
@@ -279,6 +411,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F3F76FFB209AB020007E9366 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F77003209AB021007E9366 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F77017209AB1EB007E9366 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -286,6 +439,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3F77022209AB317007E9366 /* Expression.swift in Sources */,
+				F3F77027209ABE6F007E9366 /* Date.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +456,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3F77023209AB317007E9366 /* Expression.swift in Sources */,
+				F3F77028209ABE6F007E9366 /* Date.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +465,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F76FF8209AB020007E9366 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F77024209AB317007E9366 /* Expression.swift in Sources */,
+				F3F77029209ABE6F007E9366 /* Date.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F77001209AB021007E9366 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F77014209AB1EB007E9366 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F77025209AB317007E9366 /* Expression.swift in Sources */,
+				F3F7702A209ABE6F007E9366 /* Date.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +505,11 @@
 			isa = PBXTargetDependency;
 			target = F3F76FE0209AAFB8007E9366 /* DateMath iOS */;
 			targetProxy = F3F76FEB209AAFB8007E9366 /* PBXContainerItemProxy */;
+		};
+		F3F77008209AB021007E9366 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3F76FFC209AB020007E9366 /* DateMath tvOS */;
+			targetProxy = F3F77007209AB021007E9366 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -449,6 +636,7 @@
 		F3DAD8E3209AACB90044C75C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -464,9 +652,11 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.prosumma.DateMath;
 				PRODUCT_NAME = DateMath;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -474,6 +664,7 @@
 		F3DAD8E4209AACB90044C75C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -489,6 +680,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.prosumma.DateMath;
 				PRODUCT_NAME = DateMath;
 				SKIP_INSTALL = YES;
@@ -499,6 +691,7 @@
 		F3DAD8E6209AACB90044C75C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = DateMathTests/Info.plist;
@@ -516,6 +709,7 @@
 		F3DAD8E7209AACB90044C75C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = DateMathTests/Info.plist;
@@ -533,6 +727,7 @@
 		F3F76FF2209AAFB8007E9366 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -541,7 +736,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = DateMath/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -551,6 +746,7 @@
 				PRODUCT_NAME = DateMath;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -559,6 +755,7 @@
 		F3F76FF3209AAFB8007E9366 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -567,7 +764,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = DateMath/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -586,6 +783,7 @@
 		F3F76FF4209AAFB8007E9366 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DateMathTests/Info.plist;
@@ -606,6 +804,7 @@
 		F3F76FF5209AAFB8007E9366 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DateMathTests/Info.plist;
@@ -621,6 +820,161 @@
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3F7700F209AB021007E9366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DateMath/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prosumma.DateMath;
+				PRODUCT_NAME = DateMath;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		F3F77010209AB021007E9366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DateMath/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prosumma.DateMath;
+				PRODUCT_NAME = DateMath;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3F77012209AB021007E9366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DateMathTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prosumma.DateMathTests;
+				PRODUCT_NAME = DateMathTests;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.3;
+			};
+			name = Debug;
+		};
+		F3F77013209AB021007E9366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DateMathTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prosumma.DateMathTests;
+				PRODUCT_NAME = DateMathTests;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.3;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3F7701F209AB1EB007E9366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DateMath/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prosumma.DateMath;
+				PRODUCT_NAME = DateMath;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		F3F77020209AB1EB007E9366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DateMath/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prosumma.DateMath;
+				PRODUCT_NAME = DateMath;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -668,6 +1022,33 @@
 			buildConfigurations = (
 				F3F76FF4209AAFB8007E9366 /* Debug */,
 				F3F76FF5209AAFB8007E9366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3F7700E209AB021007E9366 /* Build configuration list for PBXNativeTarget "DateMath tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F7700F209AB021007E9366 /* Debug */,
+				F3F77010209AB021007E9366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3F77011209AB021007E9366 /* Build configuration list for PBXNativeTarget "DateMathTests tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F77012209AB021007E9366 /* Debug */,
+				F3F77013209AB021007E9366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3F7701E209AB1EB007E9366 /* Build configuration list for PBXNativeTarget "DateMath watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F7701F209AB1EB007E9366 /* Debug */,
+				F3F77020209AB1EB007E9366 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
