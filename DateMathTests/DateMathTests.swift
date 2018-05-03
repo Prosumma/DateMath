@@ -11,9 +11,32 @@ import XCTest
 
 class DateMathTests: XCTestCase {
     
-    func testExample() {
+    func testYesterday() {
         let date = Date()
-        print(date + TimeZone(identifier: "UTC")! ⁝ .month * 2 + .current ⁝ .day * 4)
+        var calendar = Calendar(identifier: .gregorian)
+        calendar.timeZone = TimeZone(identifier: "America/New_York")!
+        XCTAssertEqual(date - calendar.timeZone ⁝ .day * 1, calendar.date(byAdding: .day, value: -1, to: date)!)
+    }
+    
+    func testDayAfterTomorrow() {
+        let date = Date()
+        var calendar = Calendar(identifier: .gregorian)
+        calendar.timeZone = TimeZone(identifier: "America/Los_Angeles")!
+        XCTAssertEqual(date + calendar.timeZone ⁝ .day * 2, calendar.date(byAdding: .day, value: 2, to: date)!)
+    }
+    
+    func testOneHourAndTwoSecondsAgo() {
+        let date = Date()
+        var calendar = Calendar(identifier: .gregorian)
+        calendar.timeZone = TimeZone(identifier: "America/New_York")!
+        XCTAssertEqual(date - calendar.timeZone ⁝ (.hour * 1 + .second * 2), calendar.date(byAdding: .hour, value: -1, to: calendar.date(byAdding: .second, value: -2, to: date)!)!)
+    }
+    
+    func testNextYear() {
+        let date = Date()
+        var calendar = Calendar(identifier: .gregorian)
+        calendar.timeZone = TimeZone(identifier: "GMT")!
+        XCTAssertEqual(date + calendar.timeZone ⁝ .year * 1, calendar.date(byAdding: .year, value: 1, to: date)!)
     }
     
 }
